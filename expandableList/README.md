@@ -1,5 +1,4 @@
-# Sliding Menu Demo
-======================
+# Expandable List Demo
 
 Expandable List with HTML and JS
 
