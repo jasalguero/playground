@@ -1,0 +1,50 @@
+/**
+ * GENERAL SETTINGS
+ */
+body {
+    background-color: #474747;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu li {
+    padding: 2px;
+}
+
+#menu li a {
+    display: block;
+    height: 31px;
+    text-indent: -999em;
+}
+
+/**
+ * OPTIONS IN THE MENU
+ */
+
+#menu a.About {
+    width: 121px;
+    background: url(../img/M_About.png) no-repeat 0 0;
+}
+
+#menu a.CV {
+    width: 50px;
+    background: url(../img/M_CV.png) no-repeat 0 0;
+}
+
+#menu a.Blog {
+    width: 94px;
+    background: url(../img/M_Blog.png) no-repeat 0 0;
+}
+
+#menu a.Contact {
+    width: 160px;
+    background: url(../img/M_Contact.png) no-repeat 0 0;
+}
