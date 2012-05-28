@@ -1,6 +1,6 @@
 # Menu for Loading Pages Dynamically Demo
 
-Sliding demo using HTML, CSS and Images
+Menu that loads dynamically external pages and inserts them in the content
 
 ## Resources
 
