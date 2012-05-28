@@ -1,14 +1,14 @@
-h1. Sliding Menu Demo
+# Sliding Menu Demo
 ======================
 
 Sliding demo using HTML, CSS and Images
 
-h2. Resources
+## Resources
 
 + Blog -> http://jasalguero.com/ledld/development/sliding-menu-with-css-and-jquery/
 + Demo -> http://jasalguero.github.com/playground/slidingMenu/
 
-h2. License (MIT)
+## License (MIT)
 
 Copyright (c) 2012 Abizer Nasir
 
