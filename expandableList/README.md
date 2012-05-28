@@ -5,7 +5,7 @@ Expandable List with HTML and JS
 ## Resources
 
 + Blog -> http://jasalguero.com/ledld/development/web/expandable-list/
-+ Demo -> http://jasalguero.github.com/playground/demos/slidingMenu/
++ Demo -> http://jasalguero.github.com/playground/demos/expandableList/
 
 ## License (MIT)
 

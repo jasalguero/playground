@@ -6,7 +6,7 @@ Sliding demo using HTML, CSS and Images
 ## Resources
 
 + Blog -> http://jasalguero.com/ledld/development/sliding-menu-with-css-and-jquery/
-+ Demo -> http://jasalguero.github.com/playground/slidingMenu/
++ Demo -> http://jasalguero.github.com/playground/demos/slidingMenu/
 
 ## License (MIT)
 
