@@ -1,11 +1,12 @@
-# Expandable List Demo
+# Geocoding with OSM Demo
 
-Expandable List with HTML and JS
+Geocoding with OpenStretMaps and Leaflet
 
 ## Resources
 
-+ Blog -> http://jasalguero.com/ledld/development/web/expandable-list/
-+ Demo -> http://jasalguero.github.com/playground/demos/expandableList/
++ Address search from map demo -> http://jasalguero.github.com/playground/demos/openstreetmaps/geocoding.html
++ Reverse geocode search demo -> http://jasalguero.github.com/playground/demos/openstreetmaps/reverse.html
+
 
 ## License (MIT)
 
