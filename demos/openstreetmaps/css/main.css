@@ -1,0 +1,28 @@
+/* Customization */
+body {
+	background-image: url(../img/noise.gif);
+}
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.footer {
+	margin-top: 45px;
+	padding: 35px 0 36px;
+	border-top: 1px solid#E5E5E5;
+	display:block;
+	clear:both;
+}
+#mapContainer {
+	border-radius: 1px;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 15px;
+}
+
+.mapResultTitle {
+	font-weight: bold;
+}
+

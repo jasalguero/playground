@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Geocoding Demo</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/leaflet.css" charset="utf-8" >
+		</link>
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="/public/stylesheets/leaflet.ie.css" />
+		<![endif]-->
+		<link rel="stylesheet" media="screen" href="css/main.css">
+	</head>
+	<body>
+		<div class="row span12">
+			<div class="hero-unit" style="border: 1px solid;">
+				<h1>Geocoding with OSM</h2>
+				<p>
+					This demo shows the geocoding search of addresses using OpenStreetMaps and Leaflet
+				</p>
+			</div>
+		</div>
+
+		<div class="row span8">
+			<h1>Geocode Search</h1>
+			<div id="mapContainer" style="height: 300px; width:900px"></div>
+			<div class="row span12">
+				<div class="alert alert-info span8" id="mapResult">
+					<span id="mapResultTitle" >The selected address is:</span>
+					<p>
+						<span id="mapResultAddress"></span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<p>
+				Powered by <a href="http://twitter.github.com/bootstrap" target="_blank">Twitter Bootstrap</a>
+			</p>
+			<p>
+				Code licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT License v2.0</a>.
+			</p>
+		</footer>
+	</body>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" language="javascript"  src="js/bootstrap.js"  charset="utf-8"></script>
+	<script type="text/javascript" language="javascript"  src="js/leaflet.js"></script>
+	<script type="text/javascript" language="javascript"  src="js/main.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			var options = {
+				'latitude' : '52.5015955',
+				'longitude' : '13.4023271',
+				'container' : "mapContainer",
+				'zoom' : 13
+			}
+			createMap(options);
+			projectMap.on('click', onMapClick);
+		});
+
+	</script>
+
+</html>
